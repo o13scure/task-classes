@@ -6,9 +6,9 @@
 - Класс должен иметь метод decrement, который уменьшает counter на 1 и возвращает результат
  */
 export class Counter {
-    private counter: number;
+    private counter: number = 0;
 
-    constructor(start: number = 0) {
+    constructor(start: number) {
         this.counter = start;
     }
 
